@@ -322,6 +322,11 @@ class Trainer:
 
     @staticmethod
     def get_data_loader(args, cfg, data_dict):
+        # for items in data_dict:
+        #     print('#######################################')
+        #     print(items)
+        #     print('#######################################')
+
         train_path, val_path = data_dict['train'], data_dict['val']
         # check data
         nc = int(data_dict['nc'])
