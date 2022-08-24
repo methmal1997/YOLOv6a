@@ -7,4 +7,4 @@ val: ./custom_dataset/val/ # val images
 is_coco: False
 # Classes
 nc: 2  # number of classes
-names: ['laptop', 'phone']  # class names
+names: ['Man', 'Woman']  # class names

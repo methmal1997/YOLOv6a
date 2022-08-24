@@ -7,7 +7,7 @@ __pycache__/
 # C extensions
 
 # Distribution / packaging
-
+.jpeg
 .Python
 videos/
 build/
@@ -115,3 +115,7 @@ venv.bak/
 *.onnx
 *.pt
 *.engine
+
+custom_dataset/
+images/
+labels/
